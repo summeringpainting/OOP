@@ -131,6 +131,3 @@ while sold_1.strength != 0 and sold_2.strength !=0 and sold_3.strength !=0:
              print('queen now has', sold_3.strength,'hp')
         
 print('You killed them!')
-
-
-YOOOOOOOOOO
