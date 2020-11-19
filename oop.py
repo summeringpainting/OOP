@@ -1,3 +1,6 @@
+# Comment
+
+
 class Soldier:
 
     hit = 10
