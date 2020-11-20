@@ -149,7 +149,7 @@ while sold_1.strength != 0 and sold_2.strength !=0 and sold_3.strength !=0:
                 print('you now has', sold_1.strength,'hp')
 
             if dude == 'queen':
-                sold_.stength = sold_3.whack()
+                sold_3.stength = sold_3.whack()
                 print('you now has', sold_3.strength,'hp')
 
 
