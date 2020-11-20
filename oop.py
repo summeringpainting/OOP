@@ -173,3 +173,5 @@ while sold_1.strength != 0 and sold_2.strength !=0 and sold_3.strength !=0:
             print('What are you doing! Who?!?!')
         
 print('You killed them!')
+
+WEEEEE
