@@ -99,8 +99,7 @@ print(Soldier.is_workday(my_date))
 # print(sold_2.hit)
 
 dude = input('Do you want to be joe, queen or bri? ')
-
-while True:    
+while True:
     if dude == 'joe':
         print('Your full name is ' + sold_1.fullname())
         break
@@ -116,19 +115,21 @@ question = input('Do you want to hit someone? yes or no ')
 while sold_1.strength != 0 and sold_2.strength !=0 and sold_3.strength !=0:
     if question == 'yes':
         who = input('Who joe, bri, or queen ')
-        if who == 'joe':
+        if who == 'joe' and dude != 'joe':
             print('You just hit joe for 10 hp')
             sold_1.stength = sold_1.whack()
             print('Joe now has', sold_1.strength,'hp')
             continue
-        elif who == 'bri':
+        elif who == 'bri' and dude != 'bri':
              print('You just hit bri for 10 hp')
              sold_2.stength = sold_2.whack()
              print('bri now has', sold_2.strength,'hp')
-        elif who == 'queen':
+        elif who == 'queen' and dude != 'queen':
              print('You just hit queen for 10 hp')
              sold_3.stength = sold_3.whack()
              print('queen now has', sold_3.strength,'hp')
+        else:
+            print('What are you doing!!!!')
         
 print('You killed them!')
 
