@@ -63,31 +63,38 @@ class Manager(Soldier):
 bad_1 = Enemy('big', 'loser', 1000, 30, 'squeek')
 bad_2 = Enemy('lil', 'baby', 1000, 30, 'chonker')
 
-print(bad_1)
+# print(bad_1)
 
 mgr_1 = Manager('boss', 'boi', 300, 700, [bad_1])
 
-print(issubclass(Manager, Enemy))
+# print(issubclass(Manager, Enemy))
 
-print(mgr_1.weight)
+# print(mgr_1.weight)
 
 mgr_1.add_sold(bad_2)
 mgr_1.remove_sold(bad_1)
 
-mgr_1.print_sold()
+# mgr_1.print_sold()
+# prints --> lil baby
 # print(help(Enemy))
 
 sold_1 = Soldier('joe', 'shmo', 600, 60)
 sold_2 = Soldier('bri', 'guy', 100, 60)
 sold_3 = Soldier('queen', 'bee', 60, 60)
 
-print(bad_1.type)
+# print(bad_1.type)
 bad_1.whack()
-print(bad_1.strength)
+# print(bad_1.strength)
 
 import datetime
-my_date = datetime.date(2016, 7, 11)
-print(Soldier.is_workday(my_date))
+now = datetime.datetime.now()
+
+print("Current date and time: ")
+print(now.strftime('%Y-%m-%d %H:%M:%S'))
+print(now.strftime('%H:%M:%S on %A, %B the %dth, %Y'))
+
+
+# print(Soldier.is_workday(my_date))
 
 # print('{} {}'.format(sold_1.first, sold_1.last))
 
@@ -130,11 +137,11 @@ while sold_1.strength != 0 and sold_2.strength !=0 and sold_3.strength !=0:
 
             if dude == 'bri':
                 sold_2.stength = sold_2.whack()
-                print('you now has', sold_2.strength,'hp')
+                print('you now have', sold_2.strength,'hp')
 
             if dude == 'queen':
                 sold_3.stength = sold_3.whack()
-                print('you now has', sold_3.strength,'hp')
+                print('you now have', sold_3.strength,'hp')
 
             continue
         elif who == 'bri' and dude != 'bri':
@@ -146,11 +153,11 @@ while sold_1.strength != 0 and sold_2.strength !=0 and sold_3.strength !=0:
 
             if dude == 'joe':
                 sold_1.stength = sold_1.whack()
-                print('you now has', sold_1.strength,'hp')
+                print('you now have', sold_1.strength,'hp')
 
             if dude == 'queen':
                 sold_3.stength = sold_3.whack()
-                print('you now has', sold_3.strength,'hp')
+                print('you now have', sold_3.strength,'hp')
 
 
         elif who == 'queen' and dude != 'queen':
@@ -162,14 +169,16 @@ while sold_1.strength != 0 and sold_2.strength !=0 and sold_3.strength !=0:
 
              if dude == 'bri':
                 sold_2.stength = sold_2.whack()
-                print('you now has', sold_2.strength,'hp')
+                print('you now have', sold_2.strength,'hp')
 
              if dude == 'joe':
                 sold_1.stength = sold_1.whack()
-                print('you now has', sold_1.strength,'hp')
+                print('you now have', sold_1.strength,'hp')
 
 
         else:
             print('What are you doing! Who?!?!')
         
 print('You killed them!')
+
+WEEEEE
