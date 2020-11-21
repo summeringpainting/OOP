@@ -1,5 +1,139 @@
 # Comment
-
+def anim:
+    import os
+    import time
+    def clear():
+        os.system('clear')
+    clear()
+    print("""
+     O          O
+    /|\\|''     /|\\
+    / \\        / \\
+    """)
+    time.sleep(1)
+    clear()
+    print("""
+     O  .'       O
+    /|\\\\ -     /|\\
+    / \\         / \\
+    """)
+    time.sleep(0.1)
+    clear()
+    print("""
+     O  _.      O
+    /|\\\\ -    /|\\
+    / \\        / \\
+    """)
+    time.sleep(0.1)
+    clear()
+    print("""
+     O           O
+    /|\\|''  -   /|\\
+    / \\         / \\
+    """)
+    time.sleep(0.1)
+    clear()
+    print("""
+     O           O
+    /|\\|''   -  /|\\
+    / \\         / \\
+    """)
+    time.sleep(0.1)
+    clear()
+    print("""
+     O           O
+    /|\\|''    - /|\\
+    / \\         / \\
+    """)
+    time.sleep(0.1)
+    clear()
+    print("""
+     O           O
+    /|\\|''     -/|\\
+    / \\         / \\
+    """)
+    time.sleep(0.1)
+    clear()
+    print("""
+     O             O
+    /|\\|''        /\\
+    / \\          /\\
+    """)
+    time.sleep(0.5)
+    clear()
+    print("""
+     O           O
+    /|\\|''       |\\
+    / \\         / \\
+    """)import os
+import time
+def clear():
+    os.system('clear')
+clear()
+print("""
+ O          O
+/|\\|''     /|\\
+/ \\        / \\
+""")
+time.sleep(1)
+clear()
+print("""
+ O  .'       O
+/|\\\\ -     /|\\
+/ \\         / \\
+""")
+time.sleep(0.1)
+clear()
+print("""
+ O  _.      O
+/|\\\\ -    /|\\
+/ \\        / \\
+""")
+time.sleep(0.1)
+clear()
+print("""
+ O           O
+/|\\|''  -   /|\\
+/ \\         / \\
+""")
+time.sleep(0.1)
+clear()
+print("""
+ O           O
+/|\\|''   -  /|\\
+/ \\         / \\
+""")
+time.sleep(0.1)
+clear()
+print("""
+ O           O
+/|\\|''    - /|\\
+/ \\         / \\
+""")
+time.sleep(0.1)
+clear()
+print("""
+ O           O
+/|\\|''     -/|\\
+/ \\         / \\
+""")
+time.sleep(0.1)
+clear()
+print("""
+ O             O
+/|\\|''        /\\
+/ \\          /\\
+""")
+time.sleep(0.5)
+clear()
+print("""
+ O           O
+/|\\|''       |\\
+/ \\         / \\
+""")
+time.sleep(1)
+    time.sleep(1)
+    
 
 class Soldier:
 
@@ -181,4 +315,6 @@ while sold_1.strength != 0 and sold_2.strength !=0 and sold_3.strength !=0:
         
 print('You killed them!')
 
-WEEEEE
+
+
+
